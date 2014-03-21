@@ -1,4 +1,3 @@
-
 import string
 
 def function(input,start,end):
@@ -31,4 +30,4 @@ if __name__== '__main__':
     n = input1.split()[0]
     m = input1.split()[1]
     
-    pat_1008(input2.split(),int(n),int(n)-int(m))
+    pat_1008(input2.split(),int(n),int(n)-int(m)%int(n))
